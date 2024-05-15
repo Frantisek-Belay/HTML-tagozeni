@@ -1,0 +1,20 @@
+/* Nastavení základních vlastností pro HTML tagy */
+.tag {
+  position: absolute;
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  pointer-events: none; /* Tagy nebudou reagovat na interakce uživatele */
+}
+
+/* Nastavení vlastností pro různé typy HTML tagů */
+.tag.span {
+  color: red; /* Barva pro <span> tag */
+}
+.tag.div {
+  color: blue; /* Barva pro <div> tag */
+}
+.tag.a {
+  color: green; /* Barva pro <a> tag */
+}
+/* Pokračuj s dalšími tagy podle potřeby */
